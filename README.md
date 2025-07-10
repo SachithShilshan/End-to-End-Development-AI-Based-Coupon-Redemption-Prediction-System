@@ -66,11 +66,11 @@ Repo: https://github.com/SachithShilshan/coupon-api
 
 ● Flask app exposes 3 endpoints:
 
-o /predict_lr – Logistic Regression - https://coupon-api4-hhbqh9f9c8azhud9.canadacentral-01.azurewebsites.net/predict
+    o /predict_lr – Logistic Regression - https://coupon-api4-hhbqh9f9c8azhud9.canadacentral-01.azurewebsites.net/predict
 
-o /predict_dt – Decision Tree -https://coupon-api4-hhbqh9f9c8azhud9.canadacentral-01.azurewebsites.net/predict_dt
+    o /predict_dt – Decision Tree -https://coupon-api4-hhbqh9f9c8azhud9.canadacentral-01.azurewebsites.net/predict_dt
 
-o /predict_xg – XGBoost + PCA - https://coupon-api4-hhbqh9f9c8azhud9.canadacentral-01.azurewebsites.net/predict_xg
+    o /predict_xg – XGBoost + PCA - https://coupon-api4-hhbqh9f9c8azhud9.canadacentral-01.azurewebsites.net/predict_xg
 
 ● Hosted on Azure Web App Service
 
@@ -80,18 +80,20 @@ o /predict_xg – XGBoost + PCA - https://coupon-api4-hhbqh9f9c8azhud9.canadacen
 
 ● Power Query used to data transformation:
 
-o Data Transformation
+    o Data Transformation
 
-o Send each record to Azure API
+    o Send each record to Azure API
 
-o Parse prediction and probability
+    o Parse prediction and probability
 
 ● Predictions visualized with:
 
-o Bar charts for redemption
-o Tables with customer/campaign details…
-o Filters like category,Age…
-
+    o Bar charts for redemption
+    
+    o Tables with customer/campaign details…
+   
+    o Filters like category,Age…
+ 
 For that I make draft visualization
 
 ![image](https://github.com/user-attachments/assets/72040657-dccc-412d-a74a-de185aba9ce2)
@@ -113,13 +115,13 @@ https://github.com/SachithShilshan/coupon-api
 
 ● API URLs
 
-   o Logistic Regression
+    o Logistic Regression
      https://coupon-api4-hhbqh9f9c8azhud9.canadacentral-01.azurewebsites.net/predict
 
-   o Decision Tree
+    o Decision Tree
      https://coupon-api4-hhbqh9f9c8azhud9.canadacentral-01.azurewebsites.net/predict_dt
 
-   o XGBoost
+    o XGBoost
      https://coupon-api4-hhbqh9f9c8azhud9.canadacentral-01.azurewebsites.net/predict_xg
 
 ● Power BI dashboard file
